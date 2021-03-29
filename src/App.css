@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+img {
+  vertical-align: middle;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+
+/*========================================
+          Common Css End
+========================================*/

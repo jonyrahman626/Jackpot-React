@@ -1,0 +1,69 @@
+#game_part {
+	background: #0b001b;
+	position: relative;
+	padding: 179px 0 100px 0;
+}
+
+.flow_sha {
+	filter: drop-shadow(0px 6px 0px rgba(58, 0, 144, 1));
+}
+
+.game_flow {
+	-webkit-clip-path: polygon(0 5%, 100% 0%, 100% 100%, 0 96%);
+	clip-path: polygon(0 5%, 100% 0%, 100% 100%, 0 96%);
+	position: absolute;
+	top: -304px;
+	left: 0;
+	width: 100%;
+}
+
+.border_shadow {
+	-webkit-box-shadow: inset 10px 0px 50px 0px rgba(31, 7, 67, 0.5);
+	-moz-box-shadow: inset 10px 0px 50px 0px rgba(31, 7, 67, 0.5);
+	box-shadow: inset 10px 0px 50px 0px rgba(31, 7, 67, 0.5);
+	background: #9e4efc;
+	background: -moz-linear-gradient(left, #9e4efc 0%, #570dc8 100%);
+	background: -webkit-linear-gradient(left, #9e4efc 0%, #570dc8 100%);
+	background: linear-gradient(to right, #9e4efc 0%, #570dc8 100%);
+	filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#9e4efc', endColorstr='#570dc8', GradientType=1);
+	padding: 45px 15px;
+	filter: drop-shadow(30px 10px 4px #4444dd);
+}
+
+.game_text h2 {
+	color: #fcb100;
+	background: -webkit-linear-gradient(top, #fdb125 45%, #e07e1e 48%, #fcb100 85%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-size: 50px;
+	font-weight: 400;
+	font-family: 'Anton', sans-serif;
+	margin-bottom: 18px;
+}
+
+.game_text h3 {
+	color: #ffffff;
+	font-size: 32px;
+	font-weight: 400;
+	font-family: 'Anton', sans-serif;
+	margin-bottom: 10px;
+	text-shadow: 5px 5px 0px rgba(88, 19, 184, .8);
+}
+
+.game_text p {
+	color: #ffffff;
+	font-size: 16px;
+	font-weight: 400;
+	font-family: 'Nunito', sans-serif;
+}
+
+.game_head h2 {
+	font-size: 48px;
+	font-weight: 400;
+	font-family: 'Anton', sans-serif;
+	background: -webkit-linear-gradient(bottom, #fdb125 0%, #e07e1e 51%, #fcb100 54%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	filter: drop-shadow(0 0 25px #4d0148);
+	margin: 52px 0 60px 0;
+}
