@@ -6,6 +6,8 @@ import Game from './components/Game/Game';
 import Spiner from './components/Spiner/Spiner';
 import Pricing from './components/Pricing/Pricing';
 import Payment from './components/Payment/Payment';
+import Footer from './components/Footer/Footer';
+
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
       <Pricing />
 
       <Payment />
+
+      <Footer />
     </div>
   );
 }
