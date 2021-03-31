@@ -3,6 +3,7 @@ import {FontAwesomeIcon}  from '@fortawesome/react-fontawesome';
 import { faFacebookF,  faTwitter, faLinkedinIn, faPinterestP } from '@fortawesome/free-brands-svg-icons';
 import Footer1 from '../../assets/images/foot_icon1.png';
 import Footer2 from '../../assets/images/foot_icon2.png';
+import FooterShape from '../../assets/images/shape.png';
 import './Footer.css';
 
 class Footer extends Component {
@@ -73,6 +74,14 @@ class Footer extends Component {
                         </div>
                     </div>
                 </footer>
+                <section>
+                    <div class="foot_bot text-center">
+                        <p>© 2021. All rights reserved by Designer</p>
+                        <div class="effect">
+                            <img src={FooterShape} alt="shape" />
+                        </div>
+                    </div>
+                </section>
             </div>
         );
     }

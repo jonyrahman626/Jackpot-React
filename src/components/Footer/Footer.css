@@ -136,7 +136,14 @@
     z-index: 999;
 }
 
-@-webkit-keyframes lineshine {
+.foot_bot p{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Nunito', sans-serif;
+}
+
+@keyframes lineshine {
     form {
         left: 0;
     }
@@ -145,7 +152,7 @@
     }
 }
 
-@-webkit-keyframes lineshine2 {
+@keyframes lineshine2 {
     form {
         left: 0;
     }
@@ -154,7 +161,7 @@
     }
 }
 
-@-webkit-keyframes lineshine3 {
+@keyframes lineshine3 {
     form {
         left: 0;
     }

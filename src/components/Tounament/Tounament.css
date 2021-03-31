@@ -1,0 +1,205 @@
+#tounament_part {
+    background: #150035;
+    padding: 92px 0 100px 0;
+}
+
+.touna_head_left h3 {
+    font-size: 40px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+    background: -webkit-linear-gradient(bottom, #fdb125 0%, #e07e1e 40%, #fcb100 45%);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(0 0 25px #4d0148);
+    position: relative;
+}
+
+.touna_head_left h3:after {
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: -30px;
+    width: 100%;
+    height: 3px;
+    color: #fcb100;
+    background: #000000;
+    background: -moz-linear-gradient(top, #000000 67%, #290a59 67%);
+    background: -webkit-linear-gradient(top, #000000 67%, #290a59 67%);
+    background: linear-gradient(to bottom, #000000 67%, #290a59 67%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#290a59', GradientType=0);
+}
+
+.touna_head_left h3 .effect2 {
+    position: absolute;
+    left: 0;
+    bottom: -51px;
+    animation: lineshine2 10s infinite;
+    animation-direction: alternate;
+    z-index: 99;
+}
+
+.touna_head_left h3 .effect3 {
+    position: absolute;
+    left: 0;
+    bottom: -51px;
+    animation: lineshine3 10s infinite;
+    animation-direction: alternate;
+    z-index: 99;
+}
+
+.touna_left_inner {
+    margin-top: 65px;
+}
+
+.touna_left_inner .card {
+    background: #150035;
+    border: none;
+    background-clip: inherit;
+}
+
+.touna_left_inner .card.add_border {
+    border: 1px solid #fcb100;
+    border-radius: 0;
+}
+
+.touna_left_inner button {
+    text-decoration: none !important;
+    padding-left: 30px !important;
+    width: 100%;
+    text-align: left;
+    margin-top: 25px;
+}
+
+.touna_left_inner button i {
+    float: right;
+    color: #fffeff;
+    padding-right: 50px;
+    padding-top: 9px;
+}
+
+.touna_left_inner button span {
+    color: #fffeff;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Nunito', sans-serif;
+}
+
+.touna_head_left .card-header {
+    padding: 0;
+}
+
+.touna_head_left .card-body {
+    padding: 0;
+    padding-left: 30px;
+}
+
+.touna_head_left .btn {
+    padding: 0;
+}
+
+.card-body p {
+    color: #fffeff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Nunito', sans-serif;
+    padding-bottom: 25px;
+}
+
+.btn:not(:disabled):not(.disabled) {
+    padding-bottom: 25px;
+}
+
+.accordion .add_border:not(:first-of-type):not(:last-of-type) {
+    border-bottom: 1px solid #fcb100 !important;
+}
+
+.coun_text {
+    margin-top: 85px;
+}
+
+.coun_text h4 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Nunito', sans-serif;
+}
+
+.coundown {
+    float: left;
+    margin-top: 65px;
+    border: 1px solid #fcb100;
+    height: 70px;
+    width: 70px;
+    margin-left: 18px;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.cou_mar {
+    margin-left: 0;
+}
+
+.coundown span {
+    color: #fcb100;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Nunito', sans-serif;
+}
+
+.coundown p {
+    color: #fcb100;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Nunito', sans-serif;
+}
+
+.tun_scroll {
+    padding-right: 15px;
+    height: 320px;
+}
+
+.scl_pad {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.tun_border::after {
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: -20px;
+    width: 100%;
+    height: 3px;
+    color: #fcb100;
+    background: #000000;
+    background: -moz-linear-gradient(top, #000000 67%, #290a59 67%);
+    background: -webkit-linear-gradient(top, #000000 67%, #290a59 67%);
+    background: linear-gradient(to bottom, #000000 67%, #290a59 67%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#290a59', GradientType=0);
+}
+
+.scll_main {
+    display: flex;
+}
+
+.toun_scroll_name {
+    margin-right: 10px;
+}
+
+.toun_scroll_name h5,
+p {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Nunito', sans-serif;
+}
+
+.pad_today {
+    padding-bottom: 30px;
+}
+
+.card_border {
+    border: 1px solid red !important;
+}
