@@ -5,6 +5,11 @@ import Index from './Pages/Index';
 import About from './Pages/About';
 import Promotion from './Pages/Promotion';
 import Game from './Pages/Game';
+import Membership from './Pages/Membership';
+import Contact from './Pages/Contact';
+import Error from './Pages/Error';
+import Singup from './Pages/Signup';
+import Login from './Pages/Login';
 
 function App() {
   return (
@@ -15,6 +20,12 @@ function App() {
           <Route exact path="/about" component={About}/>
           <Route exact path="/promotion" component={Promotion}/>
           <Route exact path="/games" component={Game}/>
+          <Route exact path="/games" component={Game}/>
+          <Route exact path="/membership" component={Membership}/>
+          <Route exact path="/contact" component={Contact}/>
+          <Route exact path="/error" component={Error}/>
+          <Route exact path="/singup" component={Singup}/>
+          <Route exact path="/login" component={Login}/>
         </Switch>
       </Router>
     </div>

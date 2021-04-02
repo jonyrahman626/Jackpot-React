@@ -21,7 +21,7 @@ class Header extends Component {
                                 <Link to="/promotion">Promotion</Link>
                                 <Link to="/games">Games</Link>
                                 <Link to="/membership">Membership</Link>
-                                <Link to="/Contact">Contact</Link>
+                                <Link to="/contact">Contact</Link>
                                 <Link to="/error">404</Link>
                             </Nav>
                             <div className="menu_btn">
