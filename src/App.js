@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Index from './Pages/Index';
 import About from './Pages/About';
 import Promotion from './Pages/Promotion';
+import Game from './Pages/Game';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           <Route exact path="/" component={Index}/>
           <Route exact path="/about" component={About}/>
           <Route exact path="/promotion" component={Promotion}/>
+          <Route exact path="/games" component={Game}/>
         </Switch>
       </Router>
     </div>

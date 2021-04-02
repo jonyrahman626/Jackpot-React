@@ -18,8 +18,8 @@ class Header extends Component {
                             <Nav className="ml-auto">
                                 <Link to="/">Home</Link>
                                 <Link to="/about">About Us</Link>
-                                <Link to="/Promotion">Promotion</Link>
-                                <Link to="/Games">Games</Link>
+                                <Link to="/promotion">Promotion</Link>
+                                <Link to="/games">Games</Link>
                                 <Link to="/membership">Membership</Link>
                                 <Link to="/Contact">Contact</Link>
                                 <Link to="/error">404</Link>
