@@ -1,33 +1,20 @@
 import './App.css';
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Header from './components/Header/Header';
-import Banner from './components/Banner/Banner';
-import Game from './components/Game/Game';
-import Spiner from './components/Spiner/Spiner';
-import Pricing from './components/Pricing/Pricing';
-import Tounament from './components/Tounament/Tounament';
-import Payment from './components/Payment/Payment';
-import Footer from './components/Footer/Footer';
-
+import Index from './Pages/Index';
+import About from './Pages/About';
+import Promotion from './Pages/Promotion';
 
 function App() {
   return (
     <div className="App">
-      <Header />
-
-      <Banner />
-
-      <Game />
-
-      <Spiner />
-
-      <Pricing />
-
-      <Tounament />
-
-      <Payment />
-
-      <Footer />
+      <Router>
+        <Switch>
+          <Route exact path="/" component={Index}/>
+          <Route exact path="/about" component={About}/>
+          <Route exact path="/promotion" component={Promotion}/>
+        </Switch>
+      </Router>
     </div>
   );
 }

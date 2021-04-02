@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
-import './Header.css';
+import {Link} from 'react-router-dom';
 import logo from '../../assets/images/menu_logo.png';
+import './Header.css';
 
 
 class Header extends Component {
@@ -15,17 +16,17 @@ class Header extends Component {
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
                         <Navbar.Collapse id="basic-navbar-nav">
                             <Nav className="ml-auto">
-                                <Nav.Link href="#home">Home</Nav.Link>
-                                <Nav.Link href="#link">About Us</Nav.Link>
-                                <Nav.Link href="#link">Promotion</Nav.Link>
-                                <Nav.Link href="#link">Games</Nav.Link>
-                                <Nav.Link href="#link">Membership</Nav.Link>
-                                <Nav.Link href="#link">Contact</Nav.Link>
-                                <Nav.Link href="#link">404</Nav.Link>
+                                <Link to="/">Home</Link>
+                                <Link to="/about">About Us</Link>
+                                <Link to="/Promotion">Promotion</Link>
+                                <Link to="/Games">Games</Link>
+                                <Link to="/membership">Membership</Link>
+                                <Link to="/Contact">Contact</Link>
+                                <Link to="/error">404</Link>
                             </Nav>
                             <div className="menu_btn">
-                                <a href="/">Singup</a>
-                                <a href="/">Login</a>
+                                <Link to="/singup">Singup</Link>
+                                <Link to="/login">Login</Link>
                             </div>
                         </Navbar.Collapse>
                     </div>

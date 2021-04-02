@@ -74,7 +74,7 @@ class Tounament extends Component {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-5 pr-md-0 jhamela">
+                            {/* <div className="col-lg-5 pr-md-0 jhamela">
                                 <div className="touna_head_left">
                                     <h3>Today’s Tournaments
                                         <div className="effect3">
@@ -330,7 +330,7 @@ class Tounament extends Component {
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </section>
