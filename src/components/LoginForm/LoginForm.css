@@ -1,0 +1,26 @@
+.login_main .log_inner {
+	margin-top: 50px;
+}
+
+.signup_form_pad {
+	padding: 125px 0 85px 0;
+	margin-bottom: -20px;
+}
+
+.login_main a {
+	display: inline-block;
+	line-height: 50px;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 400;
+	font-family: 'Nunito', sans-serif;
+	transition: all linear .4s;
+	-webkit-transition: all linear .4s;
+	-moz-transition: all linear .4s;
+	-ms-transition: all linear .4s;
+	-o-transition: all linear .4s;
+}
+
+.login_main .log_acc_yet {
+	float: right;
+}
