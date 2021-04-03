@@ -1,4 +1,3 @@
-
 .about_page_game {
     background: #150035 !important;
     padding: 58px 0 150px 0 !important;
@@ -16,20 +15,19 @@
 	margin: 160px 0 60px 0;
 }
 
-.about_game_slider ul.slick-dots {
+/* .about_game_slider ul.slick-dots {
     display: flex;
     position: absolute;
     left: 50%;
     bottom: -50px;
-    ;
     transform: translateX(-50%);
-}
-
+} */
+/* 
 .about_game_slider ul.slick-dots li {
     margin-right: 10px;
-}
+} */
 
-.about_game_slider ul.slick-dots li button {
+/* .about_game_slider ul.slick-dots li button {
     height: 12px;
     width: 12px;
     font-size: 0;
@@ -59,7 +57,7 @@
     -webkit-box-shadow: 0px 2px 0px 0px rgba(102, 19, 85, 1);
     -moz-box-shadow: 0px 2px 0px 0px rgba(102, 19, 85, 1);
     box-shadow: 0px 2px 0px 0px rgba(102, 19, 85, 1);
-}
+} */
 
 .game_img .game_overly a:hover {
 	background: linear-gradient(to bottom, #ff39dc 0%, #a60084 100%);
