@@ -4,6 +4,7 @@ import Nav from 'react-bootstrap/Nav';
 import {Link} from 'react-router-dom';
 import logo from '../../assets/images/menu_logo.png';
 import './Header.css';
+import './HeaderResponsive.css';
 
 
 class Header extends Component {
