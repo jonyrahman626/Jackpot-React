@@ -1,27 +1,23 @@
 @media (max-width: 575.98px){
-    .game_img {
-        margin-top: 20px;
-    }
-    .game_head {
-        margin-top: 73px;
-    }
-    .game_text h2 {
-        font-size: 25px;
-        margin-bottom: 10px;
-    }
-    .game_text h3 {
-        font-size: 20px;
-    }
-    .game_text p {
-        font-size: 14px;
-    }
-    .game_head span {
-        font-size: 25px;
-    }
     #game_part {
         padding: 100px 0 60px 0;
     }
-    .game_flow {
+
+    .game_head h2 {
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+
+    .game_img .game_overly h3 {
+        font-size: 20px !important;
+    }
+
+    .game_img .game_overly a {
+        padding: 10px 20px !important;
+        font-size: 16px !important;
+    } 
+
+    /* .game_flow {
         top: -160px;
     }
     .border_shadow {
@@ -30,6 +26,6 @@
     .flow_slider {
         margin-left: 0 !important;
         margin-right: 0 !important;
-    }
+    } */
 }
 

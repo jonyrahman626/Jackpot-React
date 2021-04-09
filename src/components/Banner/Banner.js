@@ -10,7 +10,7 @@ class Banner extends Component {
                 <section id="banner_part">
                     <div className="container px-lg-0">
                         <div className="row">
-                            <div className="col-lg-5 d-none d-md-blog">
+                            <div className="col-lg-5 d-none d-md-block">
                                 <div className="banner_img">
                                     <img src={BannerImg} alt=""/>
                                 </div>

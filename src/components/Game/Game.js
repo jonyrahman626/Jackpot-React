@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import About1 from '../../assets/images/about_1.jpg';
 import About2 from '../../assets/images/about_2.jpg';
 import About3 from '../../assets/images/about_3.jpg';
+import About4 from '../../assets/images/03_Games4.jpg';
 import './Game.css';
 import './GameResponsive.css';
 
@@ -129,7 +130,7 @@ class Game extends Component {
                             </div>
                             <div className="d-md-none col-sm-6 col-md-4">
                                 <div className="game_img">
-                                    <img src={About1} className="img-fluid w-100" alt="about_3" />
+                                    <img src={About4} className="img-fluid w-100" alt="about_3" />
                                     <div className="game_overly">
                                         <h3>Casino Game</h3>
                                         <a href="#">Play Now</a>
