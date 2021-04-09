@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
-import './Game.css';
 import About1 from '../../assets/images/about_1.jpg';
 import About2 from '../../assets/images/about_2.jpg';
 import About3 from '../../assets/images/about_3.jpg';
+import './Game.css';
+import './GameResponsive.css';
 
 class Game extends Component {
     render() {
@@ -39,6 +40,58 @@ class Game extends Component {
                                 </div>
                             </div>
                         </div>
+                        {/* For Mobile Device start */}
+                        {/* <div class="row flow_sha d-md-none">
+                            <div class="col-lg-12">
+                                <div class="game_flow">
+                                    <div class="row flow_slider">
+                                        <div class="col-lg-12 border_shadow">
+                                            <div class="game_text">
+                                                <h2><span>0</span><span>1</span></h2>
+                                                <h3>Register</h3>
+                                                <p>Download the app and signup for account</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12 border_shadow">
+                                            <div class="game_text">
+                                                <h2>02</h2>
+                                                <h3>Get Ready</h3>
+                                                <p>Deposit &amp; get ready for play betting</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12 border_shadow">
+                                            <div class="game_text">
+                                                <h2>03</h2>
+                                                <h3>Enjoy</h3>
+                                                <p>Betting more and more &amp; enjoy game</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12 border_shadow">
+                                            <div class="game_text">
+                                                <h2><span>0</span><span>1</span></h2>
+                                                <h3>Register</h3>
+                                                <p>Download the app and signup for account</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12 border_shadow">
+                                            <div class="game_text">
+                                                <h2>02</h2>
+                                                <h3>Get Ready</h3>
+                                                <p>Deposit &amp; get ready for play betting</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12 border_shadow">
+                                            <div class="game_text">
+                                                <h2>03</h2>
+                                                <h3>Enjoy</h3>
+                                                <p>Betting more and more &amp; enjoy game</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> */}
+                        {/* For Mobile Device end */}
                         <div className="row justify-content-center">
                             <div className="col-lg-12">
                                 <div className="game_head">

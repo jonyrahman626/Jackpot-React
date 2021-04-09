@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import BannerImg from '../../assets/images/index_banner.png'; 
 import './Banner.css';
+import './BannerResponsive.css';
 
 class Banner extends Component {
     render() {
@@ -9,7 +10,7 @@ class Banner extends Component {
                 <section id="banner_part">
                     <div className="container px-lg-0">
                         <div className="row">
-                            <div className="col-lg-5">
+                            <div className="col-lg-5 d-none d-md-blog">
                                 <div className="banner_img">
                                     <img src={BannerImg} alt=""/>
                                 </div>
