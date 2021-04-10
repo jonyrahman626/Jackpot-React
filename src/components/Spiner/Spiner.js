@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import './Spiner.css';
 import Spiner1 from '../../assets/images/claim_part.png';
+import './Spiner.css';
+import './SpinerResponsive.css';
 
 class Spiner extends Component {
     render() {
