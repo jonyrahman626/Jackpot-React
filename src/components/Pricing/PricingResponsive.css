@@ -1,9 +1,44 @@
 @media (max-width: 575.98px){
     #pricing_part {
-        padding: 48px 0 10px 0;
+        padding: 48px 0 0px 0;
     }
 
     .pricing_head h2 {
         font-size: 25px;
+    }
+
+    .pricing_inner {
+        margin-bottom: 75px;
+    }
+
+    .pricing_inner_head h2 {
+        font-size: 16px;
+        padding: 15px 0;
+        top: -50px;
+    }
+
+    .pricing_inner h3 {
+        font-size: 20px;
+        padding-bottom: 0px;
+        padding-top: 20px;
+    }
+
+    .pricing_inner h4 {
+        font-size: 35px;
+    }
+
+    .pricing_inner p {
+        padding-bottom: 15px;
+    }
+
+    .pricing_inner ul li {
+        padding: 5px;
+        font-size: 14px;
+    }
+
+    .pricing_inner a {
+        padding: 10px 20px;
+        font-size: 16px;
+        bottom: -20px;
     }
 }
