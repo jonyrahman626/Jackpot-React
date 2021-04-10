@@ -7,6 +7,7 @@ import Paycard3 from '../../assets/images/paycard3.png';
 import Paycard4 from '../../assets/images/paycard4.png';
 import Paycard5 from '../../assets/images/paycard5.png';
 import './Payment.css';
+import './PaymentResponsive.css';
 
 class Payment extends Component {
     render() {
