@@ -11,7 +11,7 @@ import Footer from '../components/Footer/Footer';
 class Index extends Component {
     render() {
         return (
-            <div>
+            <div style={{"overflow-x" : "hidden"}}>
                 <Header />
 
                 <Banner />

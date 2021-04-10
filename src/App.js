@@ -1,4 +1,3 @@
-import './App.css';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Index from './Pages/Index';
@@ -10,6 +9,7 @@ import Contact from './Pages/Contact';
 import Error from './Pages/Error';
 import Singup from './Pages/Signup';
 import Login from './Pages/Login';
+import './App.css';
 
 function App() {
   return (
@@ -19,7 +19,6 @@ function App() {
           <Route exact path="/" component={Index}/>
           <Route exact path="/about" component={About}/>
           <Route exact path="/promotion" component={Promotion}/>
-          <Route exact path="/games" component={Game}/>
           <Route exact path="/games" component={Game}/>
           <Route exact path="/membership" component={Membership}/>
           <Route exact path="/contact" component={Contact}/>

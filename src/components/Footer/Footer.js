@@ -5,6 +5,7 @@ import Footer1 from '../../assets/images/foot_icon1.png';
 import Footer2 from '../../assets/images/foot_icon2.png';
 import FooterShape from '../../assets/images/shape.png';
 import './Footer.css';
+import './FooterResponsive.css';
 
 class Footer extends Component {
     render() {

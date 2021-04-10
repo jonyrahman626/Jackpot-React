@@ -1,0 +1,57 @@
+@media (max-width: 575.98px) {
+    #footer_part {
+        padding: 55px 0 45px 0;
+    }
+
+    .foot_about h3 {
+        padding-bottom: 10px;
+        font-size: 25px;
+    }
+
+    .foot_about p {
+        padding-bottom: 22px;
+    }
+
+    .foot_about a {
+        height: 40px;
+        width: 40px;
+        line-height: 40px;
+        margin-bottom: 30px;
+    }
+
+    .foot_info_head h3 {
+        padding-bottom: 6px;
+        font-size: 25px;
+    }
+
+    .foot_info_text ul li a {
+        padding-bottom: 0px;
+    }
+
+    .foot_secu h3 {
+        margin-top: 22px;
+        padding-bottom: 20px;
+        font-size: 25px;
+    }
+
+    .foot_secu_text {
+        padding-bottom: 15px;
+    }
+
+    .foot_bot {
+        padding: 18px 0 20px 0;
+    }
+
+    .foot_bot p {
+        font-size: 14px;
+    }
+
+    @keyframes lineshine {
+        form {
+            left: 0;
+        }
+        to {
+            left: 79%;
+        }
+    }
+}
