@@ -1,0 +1,9 @@
+@media (max-width: 575.98px){
+    #pricing_part {
+        padding: 48px 0 10px 0;
+    }
+
+    .pricing_head h2 {
+        font-size: 25px;
+    }
+}

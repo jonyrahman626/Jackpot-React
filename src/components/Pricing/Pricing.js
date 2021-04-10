@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './Pricing.css';
+import './PricingResponsive.css';
 
 class Pricing extends Component {
     render() {

@@ -1,4 +1,4 @@
-@media (max-width: 575.98px){
+@media (max-width: 575.98px) {
     #game_part {
         padding: 45px 0 60px 0;
     }
@@ -7,6 +7,8 @@
         font-size: 25px;
         margin-bottom: 10px;
         margin: 0;
+        background: -webkit-linear-gradient(bottom, #fdb125 0%, #e07e1e 46%, #fcb100 40%);
+        -webkit-background-clip: text;
     }
 
     .game_img .game_overly h3 {
@@ -16,7 +18,6 @@
     .game_img .game_overly a {
         padding: 10px 20px !important;
         font-size: 16px !important;
-    } 
+    }
 
 }
-
