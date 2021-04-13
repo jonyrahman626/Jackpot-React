@@ -1,4 +1,9 @@
 import React, { Component } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {faCaretDown} from '@fortawesome/free-solid-svg-icons';
+import Accordion from 'react-bootstrap/Accordion';
+import Card from 'react-bootstrap/Card';
+import Button from 'react-bootstrap/Button';
 import './Tounament.css';
 
 class Tounament extends Component {
@@ -16,7 +21,62 @@ class Tounament extends Component {
                                         </div>
                                     </h3>
 
-                                    <div className="accordion touna_left_inner" id="accordionExample">
+                                    <Accordion defaultActiveKey="0" className="touna_left_inner">
+                                        <Card>
+                                            <Card.Header>
+                                                <Accordion.Toggle as={Button} variant="link" eventKey="0">
+                                                    <span>01. How can play these games (for begineer)?</span>
+                                                    <FontAwesomeIcon icon={faCaretDown} />
+                                                </Accordion.Toggle>
+                                            </Card.Header>
+                                            <Accordion.Collapse eventKey="0">
+                                                <Card.Body>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incnt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                                </Card.Body>
+                                            </Accordion.Collapse>
+                                        </Card>
+                                        <Card>
+                                            <Card.Header>
+                                                <Accordion.Toggle as={Button} variant="link" eventKey="1">
+                                                    <span>02. If I play games and lost by any chance, How I’ll pay?</span>
+                                                    <FontAwesomeIcon icon={faCaretDown} />
+                                                </Accordion.Toggle>
+                                            </Card.Header>
+                                            <Accordion.Collapse eventKey="1">
+                                                <Card.Body>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incnt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                                </Card.Body>
+                                            </Accordion.Collapse>
+                                        </Card>
+                                        <Card>
+                                            <Card.Header>
+                                                <Accordion.Toggle as={Button} variant="link" eventKey="2">
+                                                    <span>03. What are the benefits for gambiling?</span>
+                                                    <FontAwesomeIcon icon={faCaretDown} />
+                                                </Accordion.Toggle>
+                                            </Card.Header>
+                                            <Accordion.Collapse eventKey="2">
+                                                <Card.Body>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incnt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                                </Card.Body>
+                                            </Accordion.Collapse>
+                                        </Card>
+                                        <Card>
+                                            <Card.Header>
+                                                <Accordion.Toggle as={Button} variant="link" eventKey="3">
+                                                    <span>03. What are the benefits for gambiling?</span>
+                                                    <FontAwesomeIcon icon={faCaretDown} />
+                                                </Accordion.Toggle>
+                                            </Card.Header>
+                                            <Accordion.Collapse eventKey="3">
+                                                <Card.Body>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incnt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                                </Card.Body>
+                                            </Accordion.Collapse>
+                                        </Card>
+                                    </Accordion>
+
+                                    {/* <div className="accordion touna_left_inner" id="accordionExample">
                                         <div className="card add_border">
                                             <div className="card-header" id="headingOne">
                                                 <button className="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -71,7 +131,7 @@ class Tounament extends Component {
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                             {/* <div className="col-lg-5 pr-md-0 jhamela">
