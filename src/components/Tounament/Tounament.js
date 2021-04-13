@@ -22,11 +22,11 @@ class Tounament extends Component {
                                     </h3>
 
                                     <Accordion defaultActiveKey="0" className="touna_left_inner">
-                                        <Card>
+                                        <Card className="add_border">
                                             <Card.Header>
                                                 <Accordion.Toggle as={Button} variant="link" eventKey="0">
                                                     <span>01. How can play these games (for begineer)?</span>
-                                                    <FontAwesomeIcon icon={faCaretDown} />
+                                                    <i><FontAwesomeIcon icon={faCaretDown} /></i>
                                                 </Accordion.Toggle>
                                             </Card.Header>
                                             <Accordion.Collapse eventKey="0">
@@ -39,7 +39,7 @@ class Tounament extends Component {
                                             <Card.Header>
                                                 <Accordion.Toggle as={Button} variant="link" eventKey="1">
                                                     <span>02. If I play games and lost by any chance, How I’ll pay?</span>
-                                                    <FontAwesomeIcon icon={faCaretDown} />
+                                                    <i><FontAwesomeIcon icon={faCaretDown} /></i>
                                                 </Accordion.Toggle>
                                             </Card.Header>
                                             <Accordion.Collapse eventKey="1">
@@ -52,7 +52,7 @@ class Tounament extends Component {
                                             <Card.Header>
                                                 <Accordion.Toggle as={Button} variant="link" eventKey="2">
                                                     <span>03. What are the benefits for gambiling?</span>
-                                                    <FontAwesomeIcon icon={faCaretDown} />
+                                                    <i><FontAwesomeIcon icon={faCaretDown} /></i>
                                                 </Accordion.Toggle>
                                             </Card.Header>
                                             <Accordion.Collapse eventKey="2">
@@ -64,8 +64,8 @@ class Tounament extends Component {
                                         <Card>
                                             <Card.Header>
                                                 <Accordion.Toggle as={Button} variant="link" eventKey="3">
-                                                    <span>03. What are the benefits for gambiling?</span>
-                                                    <FontAwesomeIcon icon={faCaretDown} />
+                                                    <span>04. What are the benefits for gambiling?</span>
+                                                    <i><FontAwesomeIcon icon={faCaretDown} /></i>
                                                 </Accordion.Toggle>
                                             </Card.Header>
                                             <Accordion.Collapse eventKey="3">
