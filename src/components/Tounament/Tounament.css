@@ -29,7 +29,7 @@
     background: linear-gradient(to bottom, #000000 67%, #290a59 67%);
     filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#290a59', GradientType=0);
 }
-/* 
+
 .touna_head_left h3 .effect2 {
     position: absolute;
     left: 0;
@@ -46,7 +46,7 @@
     animation: lineshine3 10s infinite;
     animation-direction: alternate;
     z-index: 99;
-} */
+}
 
 .touna_left_inner {
     margin-top: 65px;
@@ -207,3 +207,5 @@ p {
 .card_border {
     border: 1px solid red !important;
 }
+
+
