@@ -1,0 +1,13 @@
+@media (max-width: 575.98px){
+    #about_banner {
+        padding: 123px 0 51px 0;
+    }
+
+    .about_menu h2 {
+        font-size: 25px;
+    }
+
+    .bread a {
+        font-size: 18px;
+    }
+}

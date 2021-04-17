@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './AboutBanner.css';
+import './AboutBannerResponsive.css';
 
 class AboutBanner extends Component {
     render() {
