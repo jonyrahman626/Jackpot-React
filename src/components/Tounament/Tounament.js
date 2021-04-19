@@ -11,6 +11,7 @@ import Scroll3 from '../../assets/images/scroll3.png';
 import Scroll4 from '../../assets/images/scroll4.png';
 import Scroll5 from '../../assets/images/scroll5.png';
 import './Tounament.css';
+import './TounamentResponsive.css';
 
 class Tounament extends Component {
     render() {

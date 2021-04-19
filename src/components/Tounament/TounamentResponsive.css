@@ -1,0 +1,75 @@
+@media (max-width: 575.98px){
+    #tounament_part {
+        padding: 35px 0 50px 0;
+    }
+
+    .touna_head_left h3 {
+        font-size: 25px;
+        margin-top: 20px;
+    }
+
+    .touna_head_left h3::after {
+        bottom: -20px;
+    }
+
+    .touna_head_left h3 .effect2 {
+        bottom: -33px;
+    }
+
+    .touna_left_inner {
+        margin-top: 22px;
+    }
+
+    .touna_left_inner .card.add_border {
+        border: 0px solid transparent;
+        border-radius: 0;
+    }
+
+    .btn:not(:disabled):not(.disabled) {
+        padding-bottom: 0px;
+    }
+
+    .touna_left_inner button span {
+        font-size: 13px;
+    }
+
+    .touna_left_inner button {
+        padding-left: 0 !important;
+        margin-top: 12px;
+    }
+
+    .card-body p {
+        font-size: 13px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        padding-top: 5px;
+    }
+
+    .touna_head_left .card-body {
+        padding: 0;
+        padding-left: 0;
+    }
+
+    .touna_left_inner button i {
+        padding-right: 0;
+        padding-top: 0;
+    }
+
+    .touna_head_left h3 .effect3 {
+        bottom: -33px;
+    }
+
+    .coun_text {
+        margin-top: 40px;
+    }
+
+    .coundown {
+        margin-top: 28px;
+    }
+
+    .toun_scroll_name h5, p {
+        font-size: 14px;
+    }
+
+}
