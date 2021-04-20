@@ -1,13 +1,11 @@
 @media (min-width: 576px) and (max-width: 767px) {
     #banner_part {
-        padding: 125px 0 25px 0;
+        padding: 150px 0 35px 0;
     }
     .banner_text p {
         margin-top: -25px;
     }
-    .banner_text h4 {
-        padding-bottom: 15px;
-    }
+
     .banner_text a {
         padding: 10px 20px;
         margin-top: 22px;
@@ -18,7 +16,7 @@
 
 @media (max-width: 575.98px) {
     #banner_part {
-        padding: 125px 0 25px 0;
+        padding: 115px 0 25px 0;
     }
     .banner_text p {
         margin-top: -25px;
