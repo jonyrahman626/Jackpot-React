@@ -1,3 +1,21 @@
+@media (min-width: 576px) and (max-width: 767px) {
+    #banner_part {
+        padding: 125px 0 25px 0;
+    }
+    .banner_text p {
+        margin-top: -25px;
+    }
+    .banner_text h4 {
+        padding-bottom: 15px;
+    }
+    .banner_text a {
+        padding: 10px 20px;
+        margin-top: 22px;
+        margin-bottom: 30px;
+        font-size: 16px;
+    }
+}
+
 @media (max-width: 575.98px) {
     #banner_part {
         padding: 125px 0 25px 0;

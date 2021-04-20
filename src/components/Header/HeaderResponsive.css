@@ -1,3 +1,45 @@
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .main_menu{
+        padding: 0 15px;
+    }
+
+    .navbar {
+        background: #150035;
+        text-align: center;
+    }
+    
+    .navbar-brand {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+    }
+
+    .main_menu a img {
+        height: 98px;
+    }
+    
+    .main_menu .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(252, 177, 0, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    }
+    
+    .main_menu .navbar-nav a {
+        padding: 7px 20px !important;
+    }
+    
+    .main_menu #basic-navbar-nav {
+        margin-top: 0px;
+        background: #000;
+        padding-bottom: 20px;
+        padding-top: 10px;
+        text-align: center;
+        border-top: 1px solid #fcb100;
+    }
+    
+    .menu_btn a {
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+}
+
 @media (max-width: 575.98px) {
     .main_menu{
         padding: 0 15px;
