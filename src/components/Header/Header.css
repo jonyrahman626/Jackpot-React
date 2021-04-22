@@ -63,3 +63,10 @@
 	height: 98px;
 	z-index: 999;
 }
+
+.main_menu .navbar-nav a.active{
+    color: #ff39dc !important
+}
+.main_menu .menu_btn a.active{
+    background: linear-gradient(to bottom, #ff39dc 0%, #a60084 100%);
+}
