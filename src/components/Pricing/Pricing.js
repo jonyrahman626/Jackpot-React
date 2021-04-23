@@ -16,7 +16,7 @@ class Pricing extends Component {
                             </div>
                         </div>
                         <div className="row">
-                            <div class="col-md-4 price_main">
+                            <div class="col-md-4 col-sm-6 price_main">
                                 <div class="pricing_inner">
                                     <div class="pricing_inner_head">
                                         <h2>Featured</h2>
@@ -35,7 +35,7 @@ class Pricing extends Component {
                                     <a href="#">Choose Now</a>
                                 </div>
                             </div>
-                            <div class="col-md-4 price_main">
+                            <div class="col-md-4 col-sm-6 price_main">
                                 <div class="pricing_inner">
                                     <div class="pricing_inner_head">
                                         <h2>Featured</h2>
@@ -54,13 +54,32 @@ class Pricing extends Component {
                                     <a href="#">Choose Now</a>
                                 </div>
                             </div>
-                            <div class="col-md-4 price_main">
+                            <div class="col-md-4 col-sm-6 price_main">
                                 <div class="pricing_inner">
                                     <div class="pricing_inner_head">
                                         <h2>Featured</h2>
                                     </div>
                                     <h3>Platinum Plan</h3>
                                     <h4>99.99</h4>
+                                    <p>USD/Per Month</p>
+                                    <ul>
+                                        <li>Editable Game Timer</li>
+                                        <li>Upto 10 Plyers at a Time</li>
+                                        <li>Etitable Score Averaging</li>
+                                        <li>Printable Result Page</li>
+                                        <li>X</li>
+                                        <li>X</li>
+                                    </ul>
+                                    <a href="#">Choose Now</a>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6 price_main d-md-none">
+                                <div class="pricing_inner">
+                                    <div class="pricing_inner_head">
+                                        <h2>Featured</h2>
+                                    </div>
+                                    <h3>Prepaid Plan</h3>
+                                    <h4>19.99</h4>
                                     <p>USD/Per Month</p>
                                     <ul>
                                         <li>Editable Game Timer</li>
