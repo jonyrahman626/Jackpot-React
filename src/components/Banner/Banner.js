@@ -10,12 +10,12 @@ class Banner extends Component {
                 <section id="banner_part">
                     <div className="container px-lg-0">
                         <div className="row">
-                            <div className="col-lg-5 d-none d-md-block">
+                            <div className="col-lg-5 col-xl-5 col-md-6 pl-md-0 d-none d-md-block">
                                 <div className="banner_img">
                                     <img src={BannerImg} alt=""/>
                                 </div>
                             </div>
-                            <div className="col-lg-5 offset-lg-1">
+                            <div className="col-lg-5 col-xl-5 col-md-6 col-12 pr-md-0 offset-lg-1 offset-xl-1">
                                 <div className="banner_text text-center text-md-left">
                                     <h4>Today’s Jackpot</h4>
                                     <h1>777</h1>
