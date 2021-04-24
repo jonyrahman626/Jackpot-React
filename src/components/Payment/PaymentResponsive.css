@@ -1,3 +1,32 @@
+@media (min-width: 768px) and (max-width: 991.98px){
+    .subcrib h3 {
+        font-size: 28px;
+    }
+
+    .pay_meth h3 {
+        font-size: 28px;
+    }
+
+    .pay_meth a img {
+        padding-right: 5px;
+        width: 65px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px){
+    .subcrib {
+        padding-bottom: 30px;
+    }
+
+    .subcrib h3 {
+        font-size: 28px;
+    }
+
+    .pay_meth h3 {
+        font-size: 28px;
+    }
+}
+
 @media (max-width: 575.98px){
     .subcrib {
         padding-bottom: 25px;
