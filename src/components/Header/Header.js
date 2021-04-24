@@ -11,8 +11,8 @@ class Header extends Component {
     render() {
         return (
             <div>
-                <Navbar className="main_menu" expand="lg">
-                    <div className="container px-lg-0">
+                <Navbar className="main_menu" expand="md">
+                    <div className="container px-md-0">
                         <Navbar.Brand href="#home"><img src={logo} alt=""/></Navbar.Brand>
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
                         <Navbar.Collapse id="basic-navbar-nav">

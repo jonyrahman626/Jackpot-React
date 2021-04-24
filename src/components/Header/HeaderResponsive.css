@@ -1,3 +1,41 @@
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .main_menu a img {
+        height: 98px;
+        width: 180px;
+    }
+
+    .main_menu .navbar-nav a {
+        padding: 10px 8px !important;
+        font-size: 17px;
+    }
+
+    .menu_btn  a {
+        padding: 14px 19px;
+        margin-left: 15px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .navbar-brand {
+        margin-right: 0;
+    }
+
+    .main_menu  a img {
+        height: 90px;
+        width: 150px;
+    }
+
+    .main_menu .navbar-nav a{
+        font-size: 13px;
+        padding: 10px 5px !important;
+    }
+
+    .menu_btn a {
+        padding: 10px 15px;
+        font-size: 14px;
+        margin-left: 10px;
+    }
+}
 @media (min-width: 576px) and (max-width: 767.98px) {
     .main_menu{
         padding: 0 15px;
