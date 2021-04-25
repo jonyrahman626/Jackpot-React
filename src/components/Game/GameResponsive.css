@@ -1,3 +1,31 @@
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #game_part {
+        padding: 130px 0 68px 0;
+    }
+
+    .game_flow {
+        top: -230px !important;
+    }
+
+    .border_shadow {
+        padding: 30px 15px !important;
+    }
+
+    .game_text h2 {
+        font-size: 35px !important;
+        margin-bottom: 5px !important;
+    }
+
+    .game_text h3 {
+        font-size: 25px !important;
+        margin-bottom: 5px !important;
+    }
+
+    .game_text p {
+        font-size: 14px !important;
+    }
+}
+
 @media (min-width: 576px) and (max-width: 767.98px) {
     #game_part {
         padding: 55px 0 60px 0;
