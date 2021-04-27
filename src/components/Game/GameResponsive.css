@@ -24,6 +24,19 @@
     .game_text p {
         font-size: 14px !important;
     }
+
+    .game_head {
+        margin-top: 18px;
+    }
+
+    .game_head h2 {
+        font-size: 35px;
+        margin: 25px 0 7px 0;
+    }
+
+    .game_img {
+        margin-top: 27px !important;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
