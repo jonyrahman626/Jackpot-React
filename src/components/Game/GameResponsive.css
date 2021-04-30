@@ -1,3 +1,18 @@
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .game_flow {
+        top: -310px !important;
+    }
+
+    .game_flow {
+        left: 12px !important;
+        width: calc(100% - 24px) !important;
+    }
+
+    #game_part {
+        padding: 171px 0 100px 0;
+    }
+}
+
 @media (min-width: 768px) and (max-width: 991.98px) {
     #game_part {
         padding: 130px 0 68px 0;
@@ -36,6 +51,15 @@
 
     .game_img {
         margin-top: 27px !important;
+    }
+
+    .game_img .game_overly h3 {
+        font-size: 20px !important;
+    }
+
+    .game_img .game_overly a {
+        padding: 10px 20px !important;
+        font-size: 15px !important;
     }
 }
 

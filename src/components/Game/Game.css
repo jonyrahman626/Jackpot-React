@@ -1,7 +1,7 @@
 #game_part {
 	background: #0b001b;
 	position: relative;
-	padding: 179px 0 100px 0;
+	padding: 161px 0 100px 0;
 }
 
 .flow_sha {
@@ -12,7 +12,7 @@
 	-webkit-clip-path: polygon(0 5%, 100% 0%, 100% 100%, 0 96%);
 	clip-path: polygon(0 5%, 100% 0%, 100% 100%, 0 96%);
 	position: absolute;
-	top: -304px;
+	top: -286px;
 	left: 0;
 	width: 100%;
 }
@@ -65,7 +65,7 @@
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	filter: drop-shadow(0 0 25px #4d0148);
-	margin: 52px 0 60px 0;
+	margin: 52px 0 4px 0;
 }
 
 .game_overly {
