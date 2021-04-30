@@ -1,3 +1,33 @@
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #spiner_part {
+        background: #150035;
+        padding: 70px 0 70px 0;
+    }
+
+    .claim_text {
+        padding-top: 0px;
+    }
+
+    .claim_text h2 {
+        font-size: 35px;
+    }
+
+    .claim_text p {
+        font-size: 14px;
+        padding-top: 23px;
+    }
+
+    .claim_text p span {
+        padding-top: 6px;
+    }
+
+    .claim_text a {
+        padding: 10px 20px;
+        font-size: 16px;
+        margin-top: 25px;
+    }
+}
+
 @media (min-width: 576px) and (max-width: 767.98px) {
 /* 
     h1,
