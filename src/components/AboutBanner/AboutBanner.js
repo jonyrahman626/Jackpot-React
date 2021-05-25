@@ -4,7 +4,7 @@ import './AboutBannerResponsive.css';
 
 class AboutBanner extends Component {
     render() {
-        var url_string = window.location.pathname //window.location.href
+        var url_string = window.location.pathname;
         var pathArray = url_string.split('/');
 
         return (
@@ -14,7 +14,7 @@ class AboutBanner extends Component {
                         <div className="row text-center">
                             <div className="col-lg-12">
                                 <div className="about_menu">
-                                    <h2>{pathArray[1].toUpperCase()}</h2>
+                                    <h2>{pathArray[1] == "about"? "about us" : pathArray[1]}</h2>
                                     <div className="bread">
                                         <a href="/">Home</a><span>&gt;</span><a className="active" href="/about">{pathArray[1]}</a>
                                     </div>

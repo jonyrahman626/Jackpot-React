@@ -1,3 +1,17 @@
+@media (min-width: 768px) and (max-width: 991.98px){
+    #pricing_part {
+        padding: 67px 0 93px 0;
+    }
+
+    .pricing_head {
+        margin-bottom: 36px;
+    }
+
+    .pricing_head h2 {
+        font-size: 35px;
+    }
+}
+
 @media (min-width: 576px) and (max-width: 767.98px){
     #pricing_part {
         padding: 56px 0 0 0;
