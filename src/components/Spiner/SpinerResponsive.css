@@ -34,21 +34,6 @@
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
-/* 
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6,
-    p,
-    ul,
-    ol,
-    ol {
-        margin: 0;
-        padding: 0;
-    } */
-
     #spiner_part {
         padding: 60px 0 60px 0;
     }
