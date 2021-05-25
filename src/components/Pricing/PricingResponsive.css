@@ -1,4 +1,10 @@
-@media (min-width: 768px) and (max-width: 991.98px){
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .pricing_inner a {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
     #pricing_part {
         padding: 67px 0 93px 0;
     }
@@ -10,9 +16,40 @@
     .pricing_head h2 {
         font-size: 35px;
     }
+
+    .pricing_inner_head h2 {
+        font-size: 18px;
+        padding: 10px 0;
+        top: -43px;
+    }
+
+    .pricing_inner h3 {
+        font-size: 25px;
+        padding-top: 15px;
+        padding-bottom: 0;
+    }
+
+    .pricing_inner h4 {
+        font-size: 40px;
+    }
+
+    .pricing_inner p {
+        padding-bottom: 15px;
+    }
+
+    .pricing_inner ul li {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    .pricing_inner a {
+        padding: 10px 15px;
+        font-size: 14px;
+        bottom: -18px;
+    }
 }
 
-@media (min-width: 576px) and (max-width: 767.98px){
+@media (min-width: 576px) and (max-width: 767.98px) {
     #pricing_part {
         padding: 56px 0 0 0;
     }
@@ -60,7 +97,7 @@
     }
 }
 
-@media (max-width: 575.98px){
+@media (max-width: 575.98px) {
     #pricing_part {
         padding: 48px 0 0px 0;
     }
