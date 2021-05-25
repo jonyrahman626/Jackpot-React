@@ -1,5 +1,36 @@
-@media (min-width: 768px) and (max-width: 991.98px){
-    
+@media (min-width: 991px) and (max-width: 1199.98px){
+    .touna_left_inner button span {
+        font-size: 16px;
+    }
+
+    .card-body p {
+        padding-right: 10px;
+    }
+
+    .coun_text h4 {
+        font-size: 18px;
+    }
+
+    .coundown {
+        height: 60px;
+        width: 60px;
+    }
+
+    .coundown {
+        margin-left: 10px;
+    }
+
+    .touna_left_inner button i {
+        padding-top: 0px;
+    }
+
+    .coundown span {
+        font-size: 16px;
+    }
+
+    .coundown p {
+        font-size: 16px;
+    }
 }
 @media (min-width: 768px) and (max-width: 991.98px){
     #tounament_part {
