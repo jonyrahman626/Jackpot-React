@@ -6,10 +6,10 @@ class PromotionBonus extends Component {
         return (
             <div>
                 <section id="prom_bonus_part">
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-10 pr-md-0">
-                                <div class="promo_bonus_text">
+                    <div className="container">
+                        <div className="row justify-content-center">
+                            <div className="col-lg-10 pr-md-0">
+                                <div className="promo_bonus_text">
                                     <h2>The Best Bonuses on the Internet!</h2>
                                     <p>
                                         <span>Claiming your BONUS is easy:</span>

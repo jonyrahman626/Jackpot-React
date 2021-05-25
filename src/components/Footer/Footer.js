@@ -62,7 +62,7 @@ class Footer extends Component {
                                             <p>Safe &amp; Secure <span>Banking</span></p>
                                         </div>
                                     </div>
-                                    <div class="foot_secu_text">
+                                    <div className="foot_secu_text">
                                         <div className="">
                                             <img src={Footer2} alt="foot_icon2" />
                                         </div>

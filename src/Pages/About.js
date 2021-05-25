@@ -4,7 +4,9 @@ import AboutGame from '../components/AboutGame/AboutGame';
 import AboutMoreGame from '../components/AboutMoreGame/AboutMoreGame';
 
 class About extends Component {
+    
     render() {
+      
         return (
             <div>
 

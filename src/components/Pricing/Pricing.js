@@ -16,9 +16,9 @@ class Pricing extends Component {
                             </div>
                         </div>
                         <div className="row">
-                            <div class="col-md-4 col-sm-6 price_main">
-                                <div class="pricing_inner">
-                                    <div class="pricing_inner_head">
+                            <div className="col-md-4 col-sm-6 price_main">
+                                <div className="pricing_inner">
+                                    <div className="pricing_inner_head">
                                         <h2>Featured</h2>
                                     </div>
                                     <h3>Trial Plan</h3>
@@ -35,9 +35,9 @@ class Pricing extends Component {
                                     <a href="#">Choose Now</a>
                                 </div>
                             </div>
-                            <div class="col-md-4 col-sm-6 price_main">
-                                <div class="pricing_inner">
-                                    <div class="pricing_inner_head">
+                            <div className="col-md-4 col-sm-6 price_main">
+                                <div className="pricing_inner">
+                                    <div className="pricing_inner_head">
                                         <h2>Featured</h2>
                                     </div>
                                     <h3>Standard Plan</h3>
@@ -54,9 +54,9 @@ class Pricing extends Component {
                                     <a href="#">Choose Now</a>
                                 </div>
                             </div>
-                            <div class="col-md-4 col-sm-6 price_main">
-                                <div class="pricing_inner">
-                                    <div class="pricing_inner_head">
+                            <div className="col-md-4 col-sm-6 price_main">
+                                <div className="pricing_inner">
+                                    <div className="pricing_inner_head">
                                         <h2>Featured</h2>
                                     </div>
                                     <h3>Platinum Plan</h3>
@@ -73,9 +73,9 @@ class Pricing extends Component {
                                     <a href="#">Choose Now</a>
                                 </div>
                             </div>
-                            <div class="col-md-4 col-sm-6 price_main d-md-none">
-                                <div class="pricing_inner">
-                                    <div class="pricing_inner_head">
+                            <div className="col-md-4 col-sm-6 price_main d-md-none">
+                                <div className="pricing_inner">
+                                    <div className="pricing_inner_head">
                                         <h2>Featured</h2>
                                     </div>
                                     <h3>Prepaid Plan</h3>
