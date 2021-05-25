@@ -1,3 +1,64 @@
+@media (min-width: 768px) and (max-width: 991.98px){
+    
+}
+@media (min-width: 768px) and (max-width: 991.98px){
+    #tounament_part {
+        padding: 65px 0 68px 0;
+    }
+
+    .touna_head_left h3 {
+        font-size: 30px;
+    }
+
+    .touna_head_left h3 .effect2 {
+        bottom: -36px;
+    }
+
+    .touna_head_left h3::after {
+        bottom: -20px;
+    }
+
+    .touna_left_inner {
+        margin-bottom: 15px;
+    }
+
+    .touna_left_inner {
+        margin-top: 40px;
+    }
+
+    .btn:not(:disabled):not(.disabled) {
+        padding-bottom: 15px;
+    }
+
+    .touna_left_inner button span {
+        font-size: 16px;
+    }
+
+    .touna_left_inner button i {
+        padding-top: 7px;
+    }
+
+    .card-body p {
+        font-size: 14px;
+    }
+
+    .jhamela {
+        padding-left: 0 !important;
+    }
+
+    .touna_head_left h3 .effect3 {
+        bottom: -36px;
+    }
+
+    .coun_text {
+        margin-top: 35px;
+    }
+
+    .coundown {
+        margin-top: 20px;
+    }
+}
+
 @media (min-width: 576px) and (max-width: 767.98px){
     #tounament_part {
         padding: 37px 0 60px 0;
