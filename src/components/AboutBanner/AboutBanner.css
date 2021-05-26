@@ -23,6 +23,7 @@
 	text-align: center;
 	text-shadow: 3px 6px 0px #1f004f;
 	display: inline-block;
+	text-transform: capitalize;
 }
 
 .bread span {
