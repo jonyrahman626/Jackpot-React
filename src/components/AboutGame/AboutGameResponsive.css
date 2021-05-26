@@ -1,13 +1,47 @@
 @media (min-width: 992px) and (max-width: 1199.98px){
+    .about_play {
+        padding-top: 30px;
+    }
+
+    .about_game {
+        top: -235px !important;
+    }
+
+    .abou_clie {
+        padding-top: 133px;
+    }
     
 }
+
 @media (min-width: 768px) and (max-width: 991.98px){
+    .client_bg {
+        padding: 100px 0 70px 0;
+    }
+
+    .about_game {
+        top: -195px !important;
+    }
+
     .abou_clie {
-        padding-top: 30px;
+        padding-top: 65px;
     }
 
     .about_play {
         padding-top: 0;
+    }
+
+    .about_play p span {
+        padding-top: 10px;
+    }
+
+    .about_play .paly_1st {
+        padding: 10px 20px;
+        font-size: 18px;
+        margin-top: 20px;
+    }
+
+    .about_play .play_but .gameplay {
+        margin: 0 10px 0 15px;
     }
 
 }
