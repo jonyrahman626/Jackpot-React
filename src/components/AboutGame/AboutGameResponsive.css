@@ -13,6 +13,15 @@
     .abou_clie {
         padding-top: 0;
     }
+
+    .about_play {
+        padding-top: 23px;
+    }
+
+    .about_play .paly_1st {
+        padding: 10px 20px;
+        font-size: 16px;
+    }
 }
 
 @media (max-width:575.98px) {
