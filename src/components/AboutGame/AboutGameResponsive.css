@@ -2,10 +2,17 @@
     
 }
 @media (min-width: 768px) and (max-width: 991.98px){
+    
 
 }
 @media (min-width: 576px) and (max-width: 767.98px){
-
+    .client_bg {
+        padding: 60px 0 60px 0;
+    }
+    
+    .abou_clie {
+        padding-top: 0;
+    }
 }
 
 @media (max-width:575.98px) {
