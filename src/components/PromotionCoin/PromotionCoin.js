@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import './PromotionCoin.css';
+import './PromotionCoinResponsive.css';
 
 class PromotionCoin extends Component {
     render() {
         return (
             <div>
-                <section id="promotion_banner">
+                <section id="promotion_banner" className="coin_page">
                     <div className="container px-lg-0">
                         <div className="row flow_sha text-center d-none d-md-block">
                             <div className="col-lg-12">
@@ -39,7 +40,7 @@ class PromotionCoin extends Component {
                     </div>
                     <div className="container pro_banner">
                         <div className="row m-0">
-                            <div className="col-lg-2 col-md-3 offset-lg-3 offset-md-2 p-md-0">
+                            <div className="col-lg-2 col-md-3 col-12 offset-lg-3 offset-md-2 p-md-0">
                                 <div className="prom_banner_left">
                                     <h3>Wild Luck</h3>
                                 </div>
