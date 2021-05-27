@@ -5,29 +5,29 @@
 }
 
 .game_head span {
-	font-size: 48px;
-	font-weight: 400;
-	font-family: 'Anton', sans-serif;
-	background: -webkit-linear-gradient(bottom, #fdb125 0%, #e07e1e 51%, #fcb100 54%);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-	filter: drop-shadow(0 0 25px #4d0148);
-	margin: 160px 0 60px 0;
+    font-size: 48px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+    background: -webkit-linear-gradient(bottom, #fdb125 0%, #e07e1e 51%, #fcb100 54%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(0 0 25px #4d0148);
+    margin: 160px 0 60px 0;
 }
 
-/* .about_game_slider ul.slick-dots {
-    display: flex;
+.about_game_slider ul.slick-dots {
+    display: flex !important;
     position: absolute;
     left: 50%;
     bottom: -50px;
     transform: translateX(-50%);
-} */
-/* 
+}
+
 .about_game_slider ul.slick-dots li {
     margin-right: 10px;
-} */
+}
 
-/* .about_game_slider ul.slick-dots li button {
+.about_game_slider ul.slick-dots li button {
     height: 12px;
     width: 12px;
     font-size: 0;
@@ -57,13 +57,13 @@
     -webkit-box-shadow: 0px 2px 0px 0px rgba(102, 19, 85, 1);
     -moz-box-shadow: 0px 2px 0px 0px rgba(102, 19, 85, 1);
     box-shadow: 0px 2px 0px 0px rgba(102, 19, 85, 1);
-} */
+}
 
 .game_img .game_overly a:hover {
-	background: linear-gradient(to bottom, #ff39dc 0%, #a60084 100%);
-	filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ff39dc', endColorstr='#a60084', GradientType=0);
-	-webkit-box-shadow: 0px 6px 0px 0px rgba(102, 19, 85, 1);
-	-moz-box-shadow: 0px 6px 0px 0px rgba(102, 19, 85, 1);
-	box-shadow: 0px 6px 0px 0px rgba(102, 19, 85, 1);
-	text-shadow: 5px 5px 0px rgba(166, 0, 132, 0.8);
+    background: linear-gradient(to bottom, #ff39dc 0%, #a60084 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ff39dc', endColorstr='#a60084', GradientType=0);
+    -webkit-box-shadow: 0px 6px 0px 0px rgba(102, 19, 85, 1);
+    -moz-box-shadow: 0px 6px 0px 0px rgba(102, 19, 85, 1);
+    box-shadow: 0px 6px 0px 0px rgba(102, 19, 85, 1);
+    text-shadow: 5px 5px 0px rgba(166, 0, 132, 0.8);
 }

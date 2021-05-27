@@ -1,5 +1,6 @@
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import "../node_modules/slick-carousel/slick/slick.css"; 
 import Header from './components/Header/Header';
 import Payment from './components/Payment/Payment';
 import Footer from './components/Footer/Footer';
