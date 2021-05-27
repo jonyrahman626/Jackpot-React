@@ -24,7 +24,7 @@ class Footer extends Component {
                                     <a href="#"><FontAwesomeIcon icon={faPinterestP} /></a>
                                 </div>
                             </div>
-                            <div className="col-lg-4 col-sm-6 jhamela">
+                            <div className="col-lg-4 col-sm-6 jhamela2">
                                 <div className="foot_info_head">
                                     <h3>Important Links</h3>
                                 </div>
