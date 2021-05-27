@@ -4,6 +4,7 @@ import About2 from '../../assets/images/about_2.jpg';
 import About3 from '../../assets/images/about_3.jpg';
 import Slider from "react-slick";
 import './AboutMoreGame.css';
+import './AboutMoreGameResponsive.css';
 
 class AboutMoreGame extends Component {
     render() {
@@ -31,7 +32,7 @@ class AboutMoreGame extends Component {
                   }
                 },
                 {
-                  breakpoint: 576,
+                  breakpoint: 575,
                   settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1
