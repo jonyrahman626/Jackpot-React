@@ -25,7 +25,7 @@ class AboutMoreGame extends Component {
                   }
                 },
                 {
-                  breakpoint: 768,
+                  breakpoint: 767,
                   settings: {
                     slidesToShow: 2,
                     slidesToScroll: 1,
