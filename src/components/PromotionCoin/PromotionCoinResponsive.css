@@ -10,8 +10,16 @@
 
     .prom_banner_left h3 {
         font-size: 70px;
-        margin-top: 30px;
-        padding-left: 47px;
+        margin-top: 40px;
+        padding-left: 45px;
+    }
+
+    .promo_banner_text h2 {
+        font-size: 37px;
+    }
+
+    .promo_banner_text h2 span {
+        font-size: 61px;
     }
 }
 
