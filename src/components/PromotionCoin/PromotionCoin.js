@@ -40,12 +40,12 @@ class PromotionCoin extends Component {
                     </div>
                     <div className="container pro_banner">
                         <div className="row m-0">
-                            <div className="col-lg-2 col-md-3 col-12 offset-md-2 p-md-0">
+                            <div className="col-lg-3 col-xl-2 col-md-3 col-12 offset-md-2 offset-xl-3 p-md-0">
                                 <div className="prom_banner_left">
                                     <h3>Wild Luck</h3>
                                 </div>
                             </div>
-                            <div className="col-lg-4 col-md-4 pl-md-0 offset-md-2">
+                            <div className="col-lg-5 col-xl-4 col-xl-4 col-md-4 pl-md-0 offset-md-2">
                                 <div className="promo_banner_text">
                                     <h1>1000</h1>
                                     <h2>Welcome Coins<span>Gift Card</span></h2>
