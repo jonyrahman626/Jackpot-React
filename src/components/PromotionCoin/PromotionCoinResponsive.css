@@ -1,5 +1,33 @@
+@media (min-width: 576px) and (max-width: 768px){}
+@media (min-width: 576px) and (max-width: 768px){}
 @media (min-width: 576px) and (max-width: 768px){
+    .coin_page {
+        background: #1e0446 !important;
+    }
 
+    .pro_banner {
+        padding: 50px 0 60px;
+        text-align: center;
+        background: none;
+    }
+    
+    .prom_banner_left h3 {
+        font-size: 60px;
+        padding-bottom: 20px;
+        margin-top: 0;
+    }
+
+    .promo_banner_text h1 {
+        font-size: 130px;
+    }
+
+    .promo_banner_text h2 {
+        font-size: 45px;
+    }
+
+    .promo_banner_text h2 span {
+        font-size: 75px;
+    }
 }
 
 @media (max-width: 575px) {
