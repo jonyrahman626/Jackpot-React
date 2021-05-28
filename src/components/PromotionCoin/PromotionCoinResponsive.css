@@ -1,6 +1,6 @@
-@media (min-width: 576px) and (max-width: 768px){}
-@media (min-width: 576px) and (max-width: 768px){}
-@media (min-width: 576px) and (max-width: 768px){
+@media (min-width: 992px) and (max-width: 1199.98px){}
+@media (min-width: 768px) and (max-width: 991.98px){}
+@media (min-width: 576px) and (max-width: 768.98px){
     .coin_page {
         background: #1e0446 !important;
     }
