@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import promoShape from '../../assets/images/promo_shape1.png';
 import './PromotionPlayer.css';
+import './PromotionPlayerResponsive.css';
 
 class PromotionPlayer extends Component {
     render() {
