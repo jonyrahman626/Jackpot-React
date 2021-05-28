@@ -1,6 +1,21 @@
 @media (min-width: 992px) and (max-width: 1199.98px){}
-@media (min-width: 768px) and (max-width: 991.98px){}
-@media (min-width: 576px) and (max-width: 768.98px){
+
+@media (min-width: 768px) and (max-width: 991.98px){
+    .pro_banner {
+        padding: 150px 0 70px;
+    }
+    .promo_banner_text h1 {
+        font-size: 125px;
+    }
+
+    .prom_banner_left h3 {
+        font-size: 70px;
+        margin-top: 30px;
+        padding-left: 47px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px){
     .coin_page {
         background: #1e0446 !important;
     }
