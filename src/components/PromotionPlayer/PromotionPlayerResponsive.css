@@ -6,7 +6,7 @@
     #promo_player_part {
         padding: 60px 0 53px;
     }
-    
+
     .pro_player_offer {
         height: 555px;
     }
@@ -63,17 +63,20 @@
             left: 73.5%;
             top: 170px;
         }
+
         50% {
             position: absolute;
             left: 50%;
             top: 61.5%;
             transform: translateX(-50%);
         }
+
         75% {
             position: absolute;
             left: 26.5%;
             top: 170px;
         }
+
         100% {
             position: absolute;
             left: 50%;
@@ -81,45 +84,53 @@
             transform: translateX(-50%);
         }
     }
+
     @keyframes playerss2 {
         25% {
             position: absolute;
             right: 23.5%;
             top: 61.5%;
         }
+
         50% {
             position: absolute;
             right: 47%;
             top: 170px;
         }
+
         75% {
             position: absolute;
             right: 23.5%;
             top: 0;
         }
+
         100% {
             position: absolute;
             right: 0;
             top: 170px;
         }
     }
+
     @keyframes playerss3 {
         25% {
             position: absolute;
             left: 26.5%;
             bottom: 170px;
         }
+
         50% {
             position: absolute;
             left: 50%;
             bottom: 340px;
             transform: translateX(-50%);
         }
+
         75% {
             position: absolute;
             left: 73.5%;
             bottom: 170px;
         }
+
         100% {
             position: absolute;
             left: 50%;
@@ -127,6 +138,7 @@
             transform: translateX(-50%);
         }
     }
+
     @keyframes playerss4 {
         25% {
             position: absolute;
@@ -134,31 +146,52 @@
             top: 0;
             transform: translateX(-50%);
         }
+
         50% {
             position: absolute;
             left: 73.5%;
             top: 170px;
             transform: translateX(-50%);
         }
+
         75% {
             position: absolute;
             left: 50%;
             top: 61.5%;
             transform: translateX(-50%);
         }
+
         100% {
             position: absolute;
             left: 0;
             top: 170px;
         }
     }
-    @-webkit-keyframes lineshine {
+
+    /* @-webkit-keyframes lineshine {
         form {
             left: 0;
         }
         to {
             left: 88%;
         }
+    } */
+    .pro_player_text {
+        padding-top: 60px;
+    }
+
+    .pro_player_text h2 {
+        font-size: 32px;
+    }
+
+    .pro_player_text p {
+        font-size: 16px;
+        line-height: 22px;
+        padding-top: 20px;
+    }
+
+    .pro_player_text p span {
+        padding-top: 15px;
     }
 }
 
