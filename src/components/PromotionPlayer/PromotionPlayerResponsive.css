@@ -1,6 +1,121 @@
 @media (min-width: 992px) and (max-width: 1199.98px) {}
 
-@media (min-width: 768px) and (max-width: 991.98px) {}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #promo_player_part {
+        padding: 70px 0 65px;
+    }
+
+    .pro_player_text {
+        padding-top: 60px;
+    }
+
+    .pro_player_text h2 {
+        font-size: 40px;
+    }
+
+    @keyframes playerss {
+        25% {
+            position: absolute;
+            left: 73.5%;
+            top: 170px;
+        }
+        50% {
+            position: absolute;
+            left: 50%;
+            top: 61.5%;
+            transform: translateX(-50%);
+        }
+        75% {
+            position: absolute;
+            left: 26.5%;
+            top: 170px;
+        }
+        100% {
+            position: absolute;
+            left: 50%;
+            top: 0;
+            transform: translateX(-50%);
+        }
+    }
+    @keyframes playerss2 {
+        25% {
+            position: absolute;
+            right: 23.5%;
+            top: 61.5%;
+        }
+        50% {
+            position: absolute;
+            right: 47%;
+            top: 170px;
+        }
+        75% {
+            position: absolute;
+            right: 23.5%;
+            top: 0;
+        }
+        100% {
+            position: absolute;
+            right: 0;
+            top: 170px;
+        }
+    }
+    @keyframes playerss3 {
+        25% {
+            position: absolute;
+            left: 26.5%;
+            bottom: 170px;
+        }
+        50% {
+            position: absolute;
+            left: 50%;
+            bottom: 340px;
+            transform: translateX(-50%);
+        }
+        75% {
+            position: absolute;
+            left: 73.5%;
+            bottom: 170px;
+        }
+        100% {
+            position: absolute;
+            left: 50%;
+            bottom: 0;
+            transform: translateX(-50%);
+        }
+    }
+    @keyframes playerss4 {
+        25% {
+            position: absolute;
+            left: 50%;
+            top: 0;
+            transform: translateX(-50%);
+        }
+        50% {
+            position: absolute;
+            left: 73.5%;
+            top: 170px;
+            transform: translateX(-50%);
+        }
+        75% {
+            position: absolute;
+            left: 50%;
+            top: 61.5%;
+            transform: translateX(-50%);
+        }
+        100% {
+            position: absolute;
+            left: 0;
+            top: 170px;
+        }
+    }
+    /* @-webkit-keyframes lineshine {
+        form {
+            left: 0;
+        }
+        to {
+            left: 88%;
+        } */
+}
 
 @media (min-width: 576px) and (max-width: 767.98px) {
     #promo_player_part {
