@@ -70,12 +70,12 @@
         }
         50% {
             position: absolute;
-            right: 50%;
+            right: 60%;
             top: 170px;
         }
         75% {
             position: absolute;
-            right: 23.5%;
+            right: 35%;
             top: 0;
         }
         100% {
