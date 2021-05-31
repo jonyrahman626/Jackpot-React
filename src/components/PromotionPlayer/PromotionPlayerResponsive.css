@@ -1,4 +1,21 @@
-@media (min-width: 992px) and (max-width: 1199.98px) {}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    #promo_player_part {
+        padding: 60px 0;
+    }
+
+    .pro_player_offer {
+        position: relative;
+        height: 570px;
+    }
+
+    .pro_player_text {
+        padding-top: 80px;
+    }
+
+    .pro_player_text h2 {
+        font-size: 46px;
+    }
+}
 
 @media (min-width: 768px) and (max-width: 991.98px) {
     #promo_player_part {
@@ -75,7 +92,7 @@
         }
         75% {
             position: absolute;
-            right: 35%;
+            right: 32%;
             top: 0;
         }
         100% {
@@ -87,7 +104,7 @@
     @keyframes playerss3 {
         25% {
             position: absolute;
-            left: 26.5%;
+            left: 20%;
             bottom: 170px;
         }
         50% {
@@ -98,7 +115,7 @@
         }
         75% {
             position: absolute;
-            left: 73.5%;
+            left: 80%;
             bottom: 170px;
         }
         100% {
@@ -117,7 +134,7 @@
         }
         50% {
             position: absolute;
-            left: 73.5%;
+            left: 80%;
             top: 170px;
             transform: translateX(-50%);
         }
