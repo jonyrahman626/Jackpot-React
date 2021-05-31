@@ -1,0 +1,47 @@
+@media (min-width: 768px) and (max-width: 991.98px) {
+	#prom_bonus_part {
+		padding: 64px 0;
+	}
+
+	.promo_bonus_text h2 {
+		font-size: 40px;
+	}
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+	#prom_bonus_part {
+		padding: 55px 0;
+	}
+
+	.promo_bonus_text h2 {
+		font-size: 32px;
+	}
+
+	.promo_bonus_text p {
+		font-size: 16px;
+		line-height: 22px;
+		padding-top: 5px;
+	}
+
+	.promo_bonus_text p span {
+		padding-top: 10px;
+	}
+}
+
+@media (max-width: 575.98px) {
+	#prom_bonus_part {
+		padding: 50px 0;
+	}
+
+	.promo_bonus_text h2 {
+		font-size: 25px;
+	}
+	.promo_bonus_text p {
+		font-size: 16px;
+		line-height: 22px;
+		padding-top: 5px;
+	}
+
+	.promo_bonus_text p span {
+		padding-top: 10px;
+	}
+}
