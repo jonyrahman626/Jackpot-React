@@ -17,21 +17,42 @@
         padding-top: 30px;
     }
 
+    .pro_offer1 {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .pro_offer2 {
+        position: absolute;
+    }
+
+    .pro_offer3 {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .pro_offer4 {
+        position: absolute;
+        left: 0;
+    }
+
     @keyframes playerss {
         25% {
             position: absolute;
-            left: 73.5%;
+            left: 80%;
             top: 170px;
         }
         50% {
             position: absolute;
             left: 50%;
-            top: 61.5%;
+            top: 58.5%;
             transform: translateX(-50%);
         }
         75% {
             position: absolute;
-            left: 26.5%;
+            left: 20%;
             top: 170px;
         }
         100% {
@@ -44,12 +65,12 @@
     @keyframes playerss2 {
         25% {
             position: absolute;
-            right: 23.5%;
+            right: 30%;
             top: 61.5%;
         }
         50% {
             position: absolute;
-            right: 47%;
+            right: 50%;
             top: 170px;
         }
         75% {
