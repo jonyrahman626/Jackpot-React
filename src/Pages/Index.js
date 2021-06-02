@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Banner from '../components/Banner/Banner';
 import Game from '../components/Game/Game';
 import Spiner from '../components/Spiner/Spiner';
