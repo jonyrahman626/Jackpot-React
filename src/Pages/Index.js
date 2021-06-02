@@ -6,23 +6,21 @@ import Pricing from '../components/Pricing/Pricing';
 import Tounament from '../components/Tounament/Tounament';
 
 
-class Index extends Component {
-    render() {
-        return (
-            <div style={{"overflow-x" : "hidden"}}>
+const Index = () => {
+    return (
+        <div style={{"overflow-x" : "hidden"}}>
 
-                <Banner />
+            <Banner />
 
-                <Game />
+            <Game />
 
-                <Spiner />
+            <Spiner />
 
-                <Pricing />
+            <Pricing />
 
-                <Tounament />
-            </div>
-        );
-    }
+            <Tounament />
+        </div>
+    );
 }
 
 export default Index;
