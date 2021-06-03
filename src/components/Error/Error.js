@@ -6,7 +6,7 @@ class Error extends Component {
     render() {
         return (
             <div>
-                <section id="claim_part" className="client_bg client_bg2">
+                <section id="claim_part" className="client_bg">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12 text-center">

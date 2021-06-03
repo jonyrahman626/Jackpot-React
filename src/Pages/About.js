@@ -6,14 +6,12 @@ import AboutMoreGame from '../components/AboutMoreGame/AboutMoreGame';
 const About = () =>{
     return (
         <div>
-
             <AboutBanner />
-
             <AboutGame />
-
             <AboutMoreGame />
         </div>
     );
 }
 
 export default About;
+
