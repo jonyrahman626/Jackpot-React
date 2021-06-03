@@ -1,6 +1,22 @@
-@media (min-width:1200px) {}
+@media (min-width:1200px) {
+    .game_img {
+        margin-top: 30px;
+    }
+    
+    .main_game {
+        padding: 96px 0 61px 0;
+    }
+}
 
-@media (min-width:992px) and (max-width: 1199.98px) {}
+@media (min-width:992px) and (max-width: 1199.98px) {
+    .main_game {
+        padding: 107px 0 61px 0;
+    }
+
+    .game_img {
+        margin-top: 30px;
+    }
+}
 
 @media (min-width:768px) and (max-width: 991.98px) {
     .game_margin2{
