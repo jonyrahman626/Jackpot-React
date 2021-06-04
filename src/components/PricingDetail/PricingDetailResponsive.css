@@ -2,11 +2,15 @@
 @media (min-width: 992px) and (max-width: 1199.98px){}
 @media (min-width: 768px) and (max-width: 991.98px){
     #pricing_page {
-        padding: 70px 0 94px 0;
+        padding: 45px 0 94px 0;
     }
 
     .pri_page_in {
-        margin-top: 45px;
+        margin-top: 70px !important;
+    }
+
+    .game_flow {
+        top: -190px !important;
     }
 }
 
