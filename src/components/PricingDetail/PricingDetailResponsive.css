@@ -1,5 +1,3 @@
-@media (min-width: 1200px){}
-
 @media (min-width: 992px) and (max-width: 1199.98px){
     .game_flow {
         top: -290px !important;
