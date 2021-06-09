@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import ErrorBanner from '../../assets/images/08_404_Page.png'
 import './Error.css';
+import './ErrorsResponsive.css';
 
 const Error = () => {
     return (
