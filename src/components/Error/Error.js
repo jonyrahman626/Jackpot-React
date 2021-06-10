@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import ErrorBanner from '../../assets/images/08_404_Page.png'
+import ErrorBanner from '../../assets/images/08_404_Page.png';
+import {Link} from 'react-router-dom';
 import './Error.css';
 import './ErrorsResponsive.css';
 
@@ -13,7 +14,7 @@ const Error = () => {
                             <div className="error_page_main">
                                 <img src={ErrorBanner} className="img-fluid" alt="08_404_Page" />
                                 <div className="error_btn">
-                                    <a href="/">Go Back to Home</a>
+                                    <Link to="/">Go Back to Home</Link>
                                 </div>
                             </div>
                         </div>
