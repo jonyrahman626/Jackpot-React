@@ -15,7 +15,7 @@ const AboutBanner = () => {
                             <div className="about_menu">
                                 <h2>{pathArray[1] == "about"? "about us" : pathArray[1]}</h2>
                                 <div className="bread">
-                                    <a href="/">Home</a><span>&gt;</span><a className="active" href="/about">{pathArray[1]}</a>
+                                    <a href="/">Home</a><span>&gt;</span><a className="active" href="/about">{pathArray[1]}</a> 
                                 </div>
                             </div>
                         </div>
